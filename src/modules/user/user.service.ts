@@ -24,8 +24,6 @@ export class UserService {
     const { email, name, password } = input;
     const { acl: aclConfig } = this.appConfiguration;
 
-    console.log('creating user in ACL', UserService.name);
-
     const existingUser = await this.userModel.findOne({ email });
 
     if (existingUser) {

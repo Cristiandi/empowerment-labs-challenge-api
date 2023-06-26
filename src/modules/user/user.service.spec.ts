@@ -60,7 +60,7 @@ describe('UserService', () => {
     const input = {
       email: 'test@example.com',
       name: 'Test User',
-      password: 'password',
+      password: 'test-password',
     };
 
     const existingUser = { id: 'user-id' };
