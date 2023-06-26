@@ -11,11 +11,11 @@ export class AppController {
 
   @ApiResponse({
     status: 200,
-    description: 'The Hello World! greeting has been successfully retrieved.',
+    description: 'Greeting has been successfully retrieved.',
     type: String,
   })
   @ApiOperation({
-    summary: 'Get Hello World! greeting',
+    summary: 'Get greeting message.',
   })
   @Public()
   @Get()
