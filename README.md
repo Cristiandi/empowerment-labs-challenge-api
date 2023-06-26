@@ -26,5 +26,5 @@ npm run test
 ```
 
 ### Live URL
-- https://czg0fzyp51.execute-api.us-west-1.amazonaws.com/
+- https://czg0fzyp51.execute-api.us-west-1.amazonaws.com/docs
 

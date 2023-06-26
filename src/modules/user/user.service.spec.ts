@@ -62,11 +62,7 @@ describe('UserService', () => {
       name: 'Test User',
       password: 'password',
     };
-    const aclConfig = {
-      roles: {
-        userCode: 'user',
-      },
-    };
+
     const existingUser = { id: 'user-id' };
     const aclUser = { authUid: 'acl-auth-uid' };
     const createdUser = {

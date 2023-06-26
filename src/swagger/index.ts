@@ -7,6 +7,7 @@ export function createdocument(app: INestApplication): OpenAPIObject {
     .setDescription('A challenge API for Empowerment Labs')
     .setVersion('1.0')
     .addServer(`http://localhost:${process.env.PORT}`, 'Local')
+    .addServer(`https://czg0fzyp51.execute-api.us-west-1.amazonaws.com`, 'Production')
     .addBearerAuth({ bearerFormat: 'JWT', type: 'http' })
     .build();
 
